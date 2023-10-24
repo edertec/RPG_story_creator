@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Story Creator</title>
+  <link rel="stylesheet" href="../static/css/index.css">
+</head>
+<body>
+  <header>
+    <h1>Story Creator</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cadastro_personagem.html">Register Character</a></li>
+      <li><a href="list_personagem.html">Consult Character</a></li>
+      <li><a href="criador_historias.html">Create Story</a></li>
+    </ul>
+  </nav>
+  <main>
+    <form id="story-form">
+        <div>
+            <label for="character-select">Select Character:</label>
+            <select id="character-select" name="character">
+              <!-- Options populated from database -->
+            </select>      
+        </div>
+      <label for="relationship">Relationship:</label>
+      <textarea id="relationship" name="relationship" rows="8" cols="100"></textarea>
+      <label for="organization">Organization:</label>
+      <textarea id="organization" name="organization" rows="8" cols="100"></textarea>
+      <button type="submit">Generate Story</button>
+    </form>
+    <div id="generated-story">
+      <!-- Generated story will appear here -->
+    </div>
+  </main>
+  <footer>
+    <p>© 2023 CETEC</p>
+  </footer>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const form = document.getElementById("story-form");
+    const generatedStoryDiv = document.getElementById("generated-story");
+
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+        // Aqui você pode chamar sua IA generativa para criar a história
+        const story = "Sua história gerada aqui...";
+        generatedStoryDiv.innerHTML = `<p>${story}</p>`;
+    });
+    });
+
+</script>
+</html>

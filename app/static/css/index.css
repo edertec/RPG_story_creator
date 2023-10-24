@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c5c65fa4-7837-41f9-b669-9b4d734b54a0/d1r382v-97d18110-3d40-4d2d-bd78-9440faec263f.jpg/v1/fill/w_900,h_600,q_75,strp/dungeons_and_dragons_wallpaper_by_xabian_d1r382v-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjAwIiwicGF0aCI6IlwvZlwvYzVjNjVmYTQtNzgzNy00MWY5LWI2NjktOWI0ZDczNGI1NGEwXC9kMXIzODJ2LTk3ZDE4MTEwLTNkNDAtNGQyZC1iZDc4LTk0NDBmYWVjMjYzZi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.FM08-ua-eFZqpBSzpTW75yNVBstAkjVhqowt3HF3NjU') no-repeat center center fixed;
+  }
+  header {
+    background: linear-gradient(to bottom right, black, red);
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  nav ul {
+    background-color: #333;
+    overflow: hidden;
+    color: white;
+  }
+  nav ul li {
+    float: left;
+    display: inline;
+    padding: 14px 16px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  main {
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* 80% transparency */
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #story-form {
+    margin-top: 20px;
+  }
+  
+  #generated-story {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }

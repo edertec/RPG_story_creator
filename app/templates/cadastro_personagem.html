@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Character Registration - Dungeons and Dragons</title>
+  <link rel='stylesheet' type='text/css' href='../static/css/register.css'>
+</head>
+<body>
+  <header>
+    <h1>Register Your RPG Character</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href='index.html'>Home</a></li>
+    </ul>
+  </nav>
+  <main>
+    <form action='/create_character' method='post'>
+      <label for='age'>Age:</label>
+      <input type='number' id='age' name='age'><br>
+      <label for='skin'>Skin Color:</label>
+      <input type='text' id='skin' name='skin'><br>
+      <label for='height'>Height:</label>
+      <input type='text' id='height' name='height'><br>
+      <label for='eyes'>Eye Color:</label>
+      <input type='text' id='eyes' name='eyes'><br>
+      <label for='weight'>Weight:</label>
+      <input type='text' id='weight' name='weight'><br>
+      <label for='name'>Name:</label>
+      <input type='text' id='name' name='name'><br>
+      <label for='level'>Level:</label>
+      <input type='number' id='level' name='level'><br>
+      <label for='class'>Class:</label>
+      <input type='text' id='class' name='class'><br>
+      <label for='subclass'>Subclass:</label>
+      <input type='text' id='subclass' name='subclass'><br>
+      <label for='background'>Background:</label>
+      <input type='text' id='background' name='background'><br>
+      <label for='race'>Race:</label>
+      <input type='text' id='race' name='race'><br>
+      <label for='personality'>Personality:</label>
+      <textarea id='personality' name='personality'></textarea><br>
+      <label for='objective'>Objective:</label>
+      <textarea id='objective' name='objective'></textarea><br>
+      <label for='alignment'>Alignment:</label>
+      <input type='text' id='alignment' name='alignment'><br>
+      <label for='other_features'>Other Features:</label>
+      <textarea id='other_features' name='other_features'></textarea><br>
+      <button type='submit'>Register</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2023 CETEC @edertec. All rights reserved.</p>
+  </footer>
+</body>
+</html>
